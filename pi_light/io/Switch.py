@@ -9,14 +9,7 @@ __status__ = "Final"
 
 
 class Switch:
-    """This class represents an electrical switch with attached attributes for use as GPIO input.
-
-    Attributes
-    ----------
-        id          Identifier of the switch
-        pin_channel Pin at which the switch is connected
-        bounce_time Delay for de bouncing the input. Given in ms.
-    """
+    """This class represents an electrical switch with attached attributes for use as GPIO input."""
     id = ""
     pin_channel = 0
     bounce_time = 0
@@ -24,11 +17,10 @@ class Switch:
     def __init__(self, id_in, pin_channel_in, bounce_time_in):
         """Initialises an instance of the switch.
 
-        Attributes
-        ----------
-            id          Identifier of the switch
-            pin_channel Pin at which the switch is connected
-            bounce_time Delay for de bouncing the input. Given in ms.
+        :param self:            Reference to myself
+        :param id_in:           Identifier of the switch
+        :param pin_channel_in:  Pin at which the switch is connected
+        :param bounce_time_in:  Delay for de bouncing the input. Given in ms.
         """
         self.id = id_in
         if pin_channel_in > 40:
