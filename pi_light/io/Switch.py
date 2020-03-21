@@ -11,7 +11,7 @@ __status__ = "Final"
 class Switch:
     """This class represents an electrical switch with attached attributes for use as GPIO input.
 
-    Attributes:
+    Attributes
         id          Identifier of the switch
         pin_channel Pin at which the switch is connected
         bounce_time Delay for de bouncing the input. Given in ms.
@@ -21,6 +21,13 @@ class Switch:
     bounce_time = 0
 
     def __init__(self, id_in, pin_channel_in, bounce_time_in):
+        """Initialises an instance of the switch.
+
+        Attributes
+            id          Identifier of the switch
+            pin_channel Pin at which the switch is connected
+            bounce_time Delay for de bouncing the input. Given in ms.
+        """
         self.id = id_in
         if pin_channel_in > 40:
             raise SwitchException("You may limit to GPIO channel number to 40. You provided " + str(pin_channel_in) +

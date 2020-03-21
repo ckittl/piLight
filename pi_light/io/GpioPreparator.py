@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-"""Handling the GPIO interface for different buttons"""
+"""Handling the GPIO interface for different buttons."""
 
 from pi_light import pi_light as main_module
 
@@ -16,6 +16,11 @@ __status__ = "Under Development"
 
 
 def prepare(switch_set):
+    """Prepares the Raspberry Pi's GPIO interface by setting up the general settings and switch specific settings
+
+    Attributes
+        switch_set  Set of switches that are connected to the GPIO pin
+    """
     main_module.logger.debug("Preparing GPIO")
     GPIO.setmode(GPIO.BOARD)
     for switch in switch_set:
