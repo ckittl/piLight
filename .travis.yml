@@ -1,0 +1,11 @@
+language: python
+python:
+  - "3.6"
+  - "3.7"
+  - "3.8"
+
+# Install dependencies
+  - pip install -r requirements.txt
+
+#Test script to use
+script: pytest
