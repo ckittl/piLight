@@ -1,5 +1,6 @@
 # piLight
 [![Build Status](https://travis-ci.com/ckittl/piLight.svg?branch=master)](https://travis-ci.com/ckittl/piLight)
+[![License](https://img.shields.io/github/license/ckittl/pilight)](https://github.com/ckittl/pilight/blob/master/LICENSE)
 
 This is a self-taught repository to learn more about the Raspberry Pi, Python and the REST API from Philips Hue.
 
