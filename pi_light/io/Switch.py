@@ -12,6 +12,7 @@ class Switch:
     """This class represents an electrical switch with attached attributes for use as GPIO input.
 
     Attributes
+    ----------
         id          Identifier of the switch
         pin_channel Pin at which the switch is connected
         bounce_time Delay for de bouncing the input. Given in ms.
@@ -24,6 +25,7 @@ class Switch:
         """Initialises an instance of the switch.
 
         Attributes
+        ----------
             id          Identifier of the switch
             pin_channel Pin at which the switch is connected
             bounce_time Delay for de bouncing the input. Given in ms.

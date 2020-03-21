@@ -19,6 +19,7 @@ def prepare(switch_set):
     """Prepares the Raspberry Pi's GPIO interface by setting up the general settings and switch specific settings
 
     Attributes
+    ----------
         switch_set  Set of switches that are connected to the GPIO pin
     """
     main_module.logger.debug("Preparing GPIO")

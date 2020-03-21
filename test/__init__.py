@@ -1,1 +1,1 @@
-"""Test scripts for all memebers of the pi_light module"""
+"""Test scripts for all members of the pi_light module."""
